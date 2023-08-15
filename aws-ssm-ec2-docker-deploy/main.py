@@ -33,8 +33,13 @@ def main():
 
     logging.info("Command Id Retrieved Successfully")
 
+    attempts=0
 
     while True:
+
+        attempts+=1
+
+        logging.info(f"Performing Command Status Check With Attempt: {attempts}")
 
         time.sleep(10)
 
