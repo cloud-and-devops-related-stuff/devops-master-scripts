@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 
 # Installing openssh-client, Python & PIP3
 RUN apt-get update && apt-get -y upgrade && apt-get install openssh-client python3 python3-pip  -y
